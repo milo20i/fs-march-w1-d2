@@ -69,11 +69,23 @@ Verify then, that name1 and name2 are equals if both lowercase (without changing
 
 /* WRITE YOUR CODE HERE */
 
+let name1 = "john"
+let name2 = "John"
+if (name1 === name2.toLowerCase){
+    console.log(john)
+}
+
+
 /* EXERCISE 8
 Create a variable named x (its value must be less than 10). Write the code to print the literal value of x (ex.: if x is 1 print "one", if 5 print "five" etc.).
 */
 
 /* WRITE YOUR CODE HERE */
+
+let x = 8
+if (x === 8){
+    console.log("eight")
+}
 
 /* EXERCISE 9
 [Extra] Insert a value in a variable based on the resut of a ternary if (topic not covered during lesson, try to search it by yourself, tomorrow morning we'll discuss it together ;) )
