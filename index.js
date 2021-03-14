@@ -82,16 +82,44 @@ Create a variable named x (its value must be less than 10). Write the code to pr
 
 /* WRITE YOUR CODE HERE */
 
-let x = 8
-if (x === 8){
+x = 6
+if(x === 1) {
+    console.log("one")
+} else if(x === 2) {
+    console.log("two")
+} else if(x === 3) {
+    console.log("three")
+} else if(x === 4) {
+    console.log("four")
+} else if(x === 5) {
+    console.log("five")
+} else if(x === 6) {
+    console.log("six")
+} else if(x === 7) {
+    console.log("seven")
+} else if(x === 8) {
     console.log("eight")
+} else if(x === 9) {
+    console.log("nine")
+} else {
+    console.log("not a valid number!")
 }
+
 
 /* EXERCISE 9
 [Extra] Insert a value in a variable based on the resut of a ternary if (topic not covered during lesson, try to search it by yourself, tomorrow morning we'll discuss it together ;) )
 */
 
 /* WRITE YOUR CODE HERE */
+
+let ternaryExample = x > 10 ? true : false
+ if (x > 10){
+     ternaryExample = true
+ }
+ else {
+     ternaryExample = false
+ }
+
 
 /* WHEN YOU ARE FINISHED
 Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
